@@ -1,0 +1,92 @@
+@font-face {
+   font-family: 'Poppins';
+   src: url(../fonts/poppins.woff2);
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: 'Poppins';
+}
+
+.bg-ijo {
+   background-color: rgba(4, 82, 46, 0.904);
+}
+
+.baris {
+   display: flex;
+   align-items: center;
+}
+
+img {
+   max-width: 100%;
+}
+
+
+/* Navigasi */
+
+nav {
+   padding-top: 5px;
+   padding-right: 30px;
+   padding-bottom: 5px;
+   padding-left: 30px;
+   padding: 5px 30px 5px 30px;
+}
+
+nav .baris {
+   display: flex;
+   align-items: center;
+   height: 50px;
+}
+
+.logo {
+   height: 40px;
+}
+
+nav button {
+   width: 100px;
+   height: 30px;
+}
+
+.navigasi {
+   display: flex;
+   list-style: none;
+   margin-right: 40px;
+   align-items: center;
+   margin-left: auto;
+}
+
+.navigasi li {
+   width: 100px;
+}
+
+.navigasi li a {
+   color: #fff;
+   text-decoration: none;
+}
+
+/* Header */
+
+.kanan {
+   width: 50%;
+}
+
+.kiri {
+   width: 50%;
+}
+
+header {
+   padding-left: 50px;
+}
+
+header {
+   margin-bottom: 50px;
+}

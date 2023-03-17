@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <title>Produk</title>
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap-icon/bootstrap-icon.css">
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .produk .card img {
+            height: 300px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-success navbar-success">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="images/logo/logo_kuy.png" height="60px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-4 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link link-light active" aria-current="page" href="belajar2.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light" href="belajar2.html#best-seller">Best Seller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light" href="belajar2.html#our-team">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light" href="belajar2.html#review">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light" href="belajar2.html#contact-us">Contact Us</a>
+                    </li>
+
+
+                </ul>
+                <a class="btn btn-outline-light" href="https://wa.me/6281515484841" target="_blank">Chat</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="produk text-center mt-5 pt-5">
+        <div class="container">
+            <h1 id="judul_h1"> Pilih Produk Anda</h1>
+            <p class="fs-4">Kualitas terbaik biji kopi pilihan, fresh diambil langsung dari petani</p>
+            <hr class="border border-success border-3 opacity-75">
+
+            <div class="form-floating col-12 col-md-4 mx-auto my-5">
+                <select class="form-select " id="Select_product " aria-label="Floating label select example ">
+                    <option selected>Capuchino</option>
+                    <option value="Espresso">Espresso</option>
+                    <option value="Latte">Latte</option>
+                    <option value="Kopi susu">Kopi susu</option>
+                    <option value="Kopi Aceh">kopi Aceh</option>
+                </select>
+                <label for="floatingSelect">Pilih Jenis Kopi</label>
+            </div>
+
+            <div class="row cols-1 row-cols-md-2 row-cols-lg-4" id="row_produk">
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_capuchino.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Capuchino</h5>
+                            <div class="row mb-4">
+                                <div class="col berat">
+                                    1.000 gram
+                                </div>
+                                <div class="col harga">
+                                    Rp. 148.000
+                                </div>
+                            </div>
+                            <a id=tombol_beli href="#" class="btn btn-success w-100">Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_espresso.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Espresso</h5>
+                            <div class="row mb-4">
+                                <div class="col berat">
+                                    500 gram
+                                </div>
+                                <div class="col harga">
+                                    Rp. 58.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-success w-100">Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_kopi_susu.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kopi Susu</h5>
+                            <div class="row mb-4">
+                                <div class="col berat ">
+                                    1.000 gram
+                                </div>
+                                <div class="col harga">
+                                    Rp. 200.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-success w-100">Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_latte.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Latte</h5>
+                            <div class="row mb-4">
+                                <div class="col berat ">
+                                    200 gram
+                                </div>
+                                <div class="col harga">
+                                    Rp. 48.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-success w-100">Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_capuchino.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kopi Aceh</h5>
+                            <div class="row mb-4">
+                                <div class="col berat ">
+                                    500 gram
+                                </div>
+                                <div class="col harga">
+                                    Rp. 120.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-success w-100">Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_kopi_susu.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kopi Malang</h5>
+                            <div class="row mb-4">
+                                <div class="col berat ">
+                                    200 gram
+                                </div>
+                                <div class="col harga">
+                                    Rp. 98.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-success w-100">Beli</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-success py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <ul class="nav">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="belajar2.html#best-seller">Best Seller</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="belajar2.html#our-team">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="belajar2.html#review">Review</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="belajar2.html#contact-us">Contact Us</a>
+                        </li>
+
+                </div>
+                <div class="col-md-4 text-light text-end">
+                    @2023 Kopi kuy. All Right Reserved
+                </div>
+            </div>
+    </footer>
+    <script></script>
+
+
+
+
+
+
+
+</html>
